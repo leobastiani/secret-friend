@@ -28,3 +28,11 @@ it("fails with one user", () => {
   const users = ["u1"];
   expect(() => genSecretFriends(users)).toThrow();
 });
+
+it("should start and end with the same person", () => {
+  const users = ["u1", "u2", "u3"];
+  const tuples = genSecretFriends(users);
+  const startWith = tuples[0].from;
+  const endWith = tuples[tuples.length - 1].to;
+  expect(startWith).toEqual(endWith);
+});

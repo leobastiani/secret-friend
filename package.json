@@ -21,15 +21,9 @@
   "license": "MIT",
   "main": "./lib/main.js",
   "types": "./lib/main.d.ts",
-  "dependencies": {
-    "lodash.shuffle": "^4.2.0",
-    "lodash.zip": "^4.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "@types/lodash.isequal": "^4.5.5",
-    "@types/lodash.shuffle": "^4.2.6",
-    "@types/lodash.zip": "^4.2.6",
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.1",

@@ -5,7 +5,7 @@
 Let's suppose you have friends: Arthur, Bob, Clara
 
 ```javascript
-const genSecretFriends = require("secret-friends");
+const genSecretFriends = require("secret-friend");
 
 const friends = ["Arthur", "Bob", "Clara"];
 const tuples = genSecretFriends(friends);

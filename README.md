@@ -1,5 +1,7 @@
 # secret-friend
 
+[![Build Status](https://app.travis-ci.com/leobastiani/secret-friend.svg?branch=main)](https://app.travis-ci.com/github/leobastiani/secret-friend)
+
 ## Usage example
 
 Let's suppose you have friends: Arthur, Bob, Clara

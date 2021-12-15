@@ -7,14 +7,14 @@ function shuffle<T>(array: T[]): T[] {
   return result;
 }
 
-function zip<T, U>(a: T[], b: U[]): [T, U][] {
+function zip<T, U>(a: T[], b: U[]): Array<[T, U]> {
   return a.map((x, i) => [x, b[i]]);
 }
 
 export default function genSecretFriends<T>(
   userIds: T[],
   { maxTries = 1000 } = {}
-): { from: T; to: T }[] {
+): Array<{ from: T; to: T }> {
   for (let i = 0; i < maxTries; i++) {
     const froms = shuffle(userIds);
     const tos = [...froms.slice(1), froms[0]];
